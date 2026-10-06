@@ -1,4 +1,4 @@
-# Hi, I'm Matthew 👋
+# Hi, I'm Crac 👋
 
 I build custom Discord bots, dashboards, and integrations with TypeScript and Node.js. I like making tools that are easy to configure, understand, and maintain.
 
