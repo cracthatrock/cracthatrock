@@ -21,7 +21,7 @@ I can troubleshoot an existing bot, add a specific feature, or build a complete 
 
 Scope, price, delivery, and revisions are agreed before work begins. Hosting and ongoing maintenance are discussed separately.
 
-[Open a project inquiry](https://github.com/cracthatrock/cracthatrock/issues/new?title=Project%20inquiry) with:
+[Open a project inquiry](https://github.com/cracthatrock/cracthatrock/issues/new?template=project-inquiry.yml) with:
 - What you need and what you already have.
 - Your budget and preferred deadline.
 - Any examples of the behavior you want.
