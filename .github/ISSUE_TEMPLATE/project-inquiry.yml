@@ -1,0 +1,46 @@
+name: Project inquiry
+description: Request a bot fix, custom feature, small bot, or full build.
+title: "[Project inquiry] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Do not include tokens, passwords, private customer data, or credentials.
+        An inquiry does not commit either party to payment or delivery; scope and terms are agreed separately.
+  - type: dropdown
+    id: service
+    attributes:
+      label: Type of work
+      options:
+        - Bot fix
+        - Custom feature
+        - Small bot
+        - Full bot build
+        - Dashboard or automation
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: What do you need?
+      description: Describe the expected behavior and what you already have. Use public links or redacted examples.
+    validations:
+      required: true
+  - type: input
+    id: budget
+    attributes:
+      label: Budget
+      description: A range is fine, or say that you need an estimate.
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Preferred deadline
+      description: Include your time zone if timing matters.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Setup and hosting
+      description: Language, existing code, hosting preferences, and any constraints. Do not include access details.
+
